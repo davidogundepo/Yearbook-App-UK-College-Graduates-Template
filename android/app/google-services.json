@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "915006611151",
+    "project_id": "uk-college-graduates-template",
+    "storage_bucket": "uk-college-graduates-template.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915006611151:android:40dba7776779898e43e1ba",
+        "android_client_info": {
+          "package_name": "com.example.uk_college_graduates_template"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915006611151-atel3506c1jfrnt0u1o54v6j57fe1uuq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uk_college_graduates_template",
+            "certificate_hash": "35a7de7f844c9b3817d4f98afe7048aeb8437cef"
+          }
+        },
+        {
+          "client_id": "915006611151-hj91ubc9lhtbk0jpd0j29jno86de35sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6PycmhV6ICpA8QESHs2A9diVz5RbUYRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915006611151-hj91ubc9lhtbk0jpd0j29jno86de35sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
