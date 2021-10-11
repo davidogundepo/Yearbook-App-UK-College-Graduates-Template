@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_analytics/observer.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -23,8 +25,8 @@ void main() async {
   await Firebase.initializeApp();
   FirebaseCrashlytics.instance.setCrashlyticsCollectionEnabled(true);
   FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
-  runApp(
-    MultiProvider(
+  runZonedGuarded(() {
+    runApp(MultiProvider(
         providers: [
           ChangeNotifierProvider(
             create: (context) => Year13ClassANotifier(),
@@ -55,8 +57,8 @@ void main() async {
           ),
         ],
         child: MyApp()
-    ),
-  );
+    ));
+  }, FirebaseCrashlytics.instance.recordError);
 }
 
 class MyApp extends StatefulWidget {
@@ -85,7 +87,7 @@ class MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.lightBlue,
+        primarySwatch: Colors.blueGrey,
       ),
       home: SideBarLayout(),
       navigatorObservers: [

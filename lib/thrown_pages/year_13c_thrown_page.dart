@@ -30,7 +30,7 @@ String aboutSchool = "About $schoolName";
 String acronymMeanings = "Acronym Meanings";
 String aboutApp = "About App";
 
-String imgAsset = "assets/images/hallel_13.jpg";
+String imgAsset = "assets/images/thrown_13_4.jpg";
 
 
 Color backgroundColor = Color.fromRGBO(86, 158, 128, 1);
@@ -313,7 +313,8 @@ class _MyYear13ClassCPage extends State<MyYear13ClassCPage> {
                                             color: textColor
                                           ),),
                                           onTap: () {
-                                          navigateToWhoWeArePage(context);
+                                            Navigator.of(context).pop(false);
+                                            navigateToWhoWeArePage(context);
                                           }
                                       ),
                                       ListTile(
@@ -323,7 +324,8 @@ class _MyYear13ClassCPage extends State<MyYear13ClassCPage> {
                                               color: textColor
                                           ),),
                                         onTap: () {
-                                          navigateToAboutSchoolDetailsPage(context);
+                                            Navigator.of(context).pop(false);
+                                            navigateToAboutSchoolDetailsPage(context);
                                         },
                                       ),
                                       ListTile(
@@ -333,6 +335,7 @@ class _MyYear13ClassCPage extends State<MyYear13ClassCPage> {
                                                 color: textColor
                                             ),),
                                           onTap: () {
+                                            Navigator.of(context).pop(false);
                                             navigateToAcronymsMeaningsPage(context);
                                           }
                                       ),
@@ -343,7 +346,8 @@ class _MyYear13ClassCPage extends State<MyYear13ClassCPage> {
                                               color: textColor
                                           ),),
                                         onTap: () {
-                                          navigateToAboutAppDetailsPage(context);
+                                            Navigator.of(context).pop(false);
+                                            navigateToAboutAppDetailsPage(context);
                                         },
                                       ),
 
@@ -376,7 +380,7 @@ class _MyYear13ClassCPage extends State<MyYear13ClassCPage> {
                       title: Center(
                         heightFactor: 0.6,
                         child: Text(thrownName,
-                            style: GoogleFonts.amaticSC(
+                            style: GoogleFonts.abel(
                               color: appBarTextColor,
                               fontSize: 26.0,
                               fontWeight: FontWeight.bold
