@@ -22,7 +22,7 @@
     </queries>
 
    <application
-       android:name="io.flutter.app.FlutterApplication"
+       android:name="${applicationName}"
        android:extractNativeLibs="true"
        android:fullBackupContent="true"
        android:allowBackup="true"
