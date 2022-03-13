@@ -26,10 +26,11 @@
        android:extractNativeLibs="true"
        android:fullBackupContent="true"
        android:allowBackup="true"
-       android:label="UK College ALMANAC Template"
+       android:label="UK College Sch"
        android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
+            android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/NormalTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

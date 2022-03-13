@@ -64,16 +64,17 @@ flutter_native_splash:
 
 
 flutter_app_name:
-  name: "UK College ALMANAC Template"
+#  name: "UK College ALMANAC Template"
+  name: "UK College Sch"
 
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/images/cov_college_logo.jpeg"
+  image_path: "assets/images/uk_col_icon.jpeg"
 
 
 dev_dependencies:
-  flutter_native_splash: ^1.2.3
+  flutter_native_splash: ^2.1.0
   flutter_test:
     sdk: flutter
 
