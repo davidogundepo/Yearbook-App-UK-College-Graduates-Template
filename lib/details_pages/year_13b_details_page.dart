@@ -67,23 +67,23 @@ String facebookProfileSharedPreferencesButton = "Go to Facebook";
 String facebookProfileSharedPreferencesButtonTwo = "Lol, No";
 
 
-Color backgroundColor = Color.fromRGBO(194, 178, 128, 1);
-Color appBarTextColor = Colors.white;
-Color appBarBackgroundColor = Color.fromRGBO(155, 134, 99, 1);
-Color appBarIconColor = Colors.white;
+Color backgroundColor = Color.fromRGBO(247, 204, 172, 1);
+Color appBarTextColor = Color.fromRGBO(71, 69, 69, 1.0);
+Color appBarBackgroundColor = Color.fromRGBO(247, 204, 172, 1);
+Color appBarIconColor = Color.fromRGBO(71, 69, 69, 1.0);
 Color materialBackgroundColor = Colors.transparent;
-Color shapeDecorationColor = Color.fromRGBO(194, 178, 128, 1);
-Color shapeDecorationColorTwo = Color.fromRGBO(155, 134, 99, 1);
-Color shapeDecorationTextColor = Color.fromRGBO(155, 134, 99, 1);
-Color shapeDecorationIconColor = Color.fromRGBO(155, 134, 99, 1);
-Color cardBackgroundColor = Colors.white;
-Color splashColor = Color.fromRGBO(237, 209, 166, 1);
+Color shapeDecorationColor = Color.fromRGBO(247, 204, 172, 1);
+Color shapeDecorationColorTwo = Color.fromRGBO(247, 204, 172, 1);
+Color shapeDecorationTextColor = Color.fromRGBO(247, 204, 172, 1);
+Color shapeDecorationIconColor = Color.fromRGBO(247, 204, 172, 1);
+Color cardBackgroundColor = Color.fromRGBO(71, 69, 69, 1.0);
+Color splashColor = Colors.white;
 Color splashColorTwo = Colors.white;
-Color splashColorThree = Color.fromRGBO(155, 134, 99, 1);
-Color iconTextColor = Colors.white;
-Color iconTextColorTwo = Color.fromRGBO(155, 134, 99, 1);
-Color buttonColor = Color.fromRGBO(155, 134, 99, 1);
-Color textColor = Color.fromRGBO(155, 134, 99, 1);
+Color splashColorThree = Colors.white;
+Color iconTextColor = Color.fromRGBO(71, 69, 69, 1.0);
+Color iconTextColorTwo = Color.fromRGBO(247, 204, 172, 1);
+Color buttonColor = Color.fromRGBO(247, 204, 172, 1);
+Color textColor = Color.fromRGBO(247, 204, 172, 1);
 Color confettiColorOne = Colors.green;
 Color confettiColorTwo = Colors.blue;
 Color confettiColorThree = Colors.pink;
@@ -241,9 +241,10 @@ class _Year13ClassBDetailsPage extends State<Year13ClassBDetailsPage> {
                   onTap: () {},
                   child: Card(
                     elevation: 4,
+                    color: cardBackgroundColor,
                     shape: OutlineInputBorder(
                       borderSide: BorderSide(
-                          color: shapeDecorationColor.withOpacity(0.70),
+                          color: cardBackgroundColor.withOpacity(0.70),
                           width: 4.0,
                           style: BorderStyle.solid),
                     ),

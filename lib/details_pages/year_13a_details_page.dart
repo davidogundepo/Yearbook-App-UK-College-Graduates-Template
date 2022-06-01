@@ -67,24 +67,24 @@ String facebookProfileSharedPreferencesButton = "Go to Facebook";
 String facebookProfileSharedPreferencesButtonTwo = "Lol, No";
 
 
-Color backgroundColor = Color.fromRGBO(222, 93, 131, 1);
+Color backgroundColor = Color.fromRGBO(58, 56, 69, 1);
 Color appBarTextColor = Colors.white;
-Color appBarBackgroundColor = Colors.pink[300];
+Color appBarBackgroundColor = Color.fromRGBO(58, 56, 69, 1);
 Color appBarIconColor = Colors.white;
 Color materialBackgroundColor = Colors.transparent;
-Color shapeDecorationColor = Colors.pink[500];
+Color shapeDecorationColor = Color.fromRGBO(58, 56, 69, 1);
 Color shapeDecorationColorTwo = Colors.white;
-Color shapeDecorationColorThree = Colors.pink[300];
-Color shapeDecorationTextColor = Colors.pink[300];
-Color shapeDecorationIconColor = Colors.pink[300];
+Color shapeDecorationColorThree = Color.fromRGBO(58, 56, 69, 1);
+Color shapeDecorationTextColor = Color.fromRGBO(58, 56, 69, 1);
+Color shapeDecorationIconColor = Color.fromRGBO(58, 56, 69, 1);
 Color cardBackgroundColor = Colors.white;
-Color splashColor = Colors.pink[500];
+Color splashColor = Color.fromRGBO(58, 56, 69, 1);
 Color splashColorTwo = Colors.white;
-Color splashColorThree = Colors.pink[300];
+Color splashColorThree = Color.fromRGBO(58, 56, 69, 1);
 Color iconTextColor = Colors.white;
-Color iconTextColorTwo = Colors.pink[300];
-Color buttonColor = Colors.pink[300];
-Color textColor = Colors.pink[300];
+Color iconTextColorTwo = Color.fromRGBO(58, 56, 69, 1);
+Color buttonColor = Color.fromRGBO(58, 56, 69, 1);
+Color textColor = Color.fromRGBO(58, 56, 69, 1);
 Color confettiColorOne = Colors.green;
 Color confettiColorTwo = Colors.blue;
 Color confettiColorThree = Colors.pink;
@@ -573,7 +573,7 @@ class _SubPageState extends State<SubPage> {
                           MdiIcons.message,
                           color: iconTextColor,
                         ),
-                        label: Text(messageButton,
+                        label: Text(whatsAppButton,
                             style: GoogleFonts.abel(
                                 color: iconTextColor,
                                 fontSize: 18,

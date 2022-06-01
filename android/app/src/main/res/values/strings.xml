@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background">#3A3845</color>
+    <string name="aab_college">AAB College</string>
 </resources>

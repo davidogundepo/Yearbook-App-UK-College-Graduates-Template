@@ -82,24 +82,23 @@ double teachingStaffPopulation = 85;
 double nonTeachingStaffPopulation = 32;
 
 
-Color backgroundColor = Colors.blueGrey[900];
-Color cardBackgroundColor = Colors.black38;
-Color appBarIconColor = Colors.blueGrey;
-Color appBarTextColor = Colors.blueGrey;
-Color appBarBackgroundColor = Colors.blueGrey[800];
-Color cardTextColor = Colors.blueGrey;
-Color boxDecorationColor = Colors.blueGrey;
-Color chartBackgroundColor = Colors.grey[200];
+Color backgroundColor = Color.fromRGBO(121, 99, 160, 1.0);
+Color cardBackgroundColor = Color.fromRGBO(110, 88, 140, 1.0);
+Color appBarIconColor = Colors.white;
+Color appBarTextColor = Colors.white;
+Color appBarBackgroundColor = Color.fromRGBO(121, 99, 160, 1.0);
+Color cardTextColor = Colors.white;
+Color cardColor = Color.fromRGBO(177, 149, 214, 1.0);
+Color boxDecorationColor = Color.fromRGBO(177, 149, 214, 1.0);
+Color chartBackgroundColor = Color.fromRGBO(28, 26, 26, 1.0);
 Color materialColor = Colors.transparent;
-Color textColor = Colors.blueGrey[900];
-Color firstSchoolChartColor = Colors.blueGrey;
-Color secondSchoolChartColor = Colors.deepOrangeAccent;
-Color thirdSchoolChartColor = Colors.yellow;
-Color fourthSchoolChartColor = Colors.cyan;
-Color firstStudentChartColor = Colors.blueGrey;
-Color secondStudentChartColor = Colors.deepOrangeAccent;
-
-
+Color textColor = Colors.white;
+Color firstSchoolChartColor = Color.fromRGBO(97, 72, 141, 1.0);
+Color secondSchoolChartColor = Color.fromRGBO(33, 106, 124, 1.0);
+Color thirdSchoolChartColor = Color.fromRGBO(204, 207, 221, 1.0);
+Color fourthSchoolChartColor = Color.fromRGBO(153, 90, 61, 1.0);
+Color firstStudentChartColor = Color.fromRGBO(97, 72, 141, 1.0);
+Color secondStudentChartColor = Color.fromRGBO(33, 106, 124, 1.0);
 
 
 class AboutSchoolDetails extends StatefulWidget {
@@ -456,7 +455,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
             Padding(
               padding: const EdgeInsets.only(left: 20, right: 20, bottom: 30),
               child: Container(
-                height: 250,
+                height: 400,
                 decoration: BoxDecoration(
                     color: boxDecorationColor.withAlpha(50),
                     borderRadius: new BorderRadius.circular(10)
@@ -492,7 +491,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                             chartType: ChartType.disc,
                             legendOptions: LegendOptions(
                               showLegendsInRow: false,
-                              legendPosition: LegendPosition.right,
+                              legendPosition: LegendPosition.bottom,
                               showLegends: true,
                               legendShape: BoxShape.circle,
                               legendTextStyle: TextStyle(
@@ -567,7 +566,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
             Padding(
               padding: const EdgeInsets.only(left: 20, right: 20, bottom: 30),
               child: Container(
-                height: 270,
+                height: 370,
                 decoration: BoxDecoration(
                     color: boxDecorationColor.withAlpha(50),
                     borderRadius: new BorderRadius.circular(10)
@@ -603,7 +602,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                             chartType: ChartType.ring,
                             legendOptions: LegendOptions(
                               showLegendsInRow: false,
-                              legendPosition: LegendPosition.right,
+                              legendPosition: LegendPosition.bottom,
                               showLegends: true,
                               legendShape: BoxShape.circle,
                               legendTextStyle: TextStyle(
@@ -987,6 +986,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
             Container(
               height: 340,
               child: Swiper(
+                autoplay: true,
                 viewportFraction: 0.8,
                 scale: 0.9,
                 itemCount: schoolArialNotifier.schoolArialList.length,
@@ -1007,7 +1007,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                     Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.only(bottomLeft: Radius.circular(10), bottomRight: Radius.circular(10)),
-                        color: cardTextColor
+                        color: cardColor
                       ),
                       child: ListTile(
                         title: Center(
@@ -1073,6 +1073,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
             Container(
               height: 340,
               child: Swiper(
+                autoplay: true,
                 viewportFraction: 0.8,
                 scale: 0.9,
                 itemCount: achievementsNotifier.achievementsList.length,
@@ -1095,7 +1096,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.only(bottomLeft: Radius.circular(10), bottomRight: Radius.circular(10)),
-                          color: cardTextColor
+                          color: cardColor
                         ),
                         child: ListTile(
                           title: Center(

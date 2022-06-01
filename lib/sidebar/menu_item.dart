@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Color iconColor = Colors.cyan;
+Color iconColor = Colors.white;
 Color textColor = Colors.white;
 
 

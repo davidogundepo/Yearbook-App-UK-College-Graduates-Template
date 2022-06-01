@@ -32,20 +32,20 @@ String aboutApp = "About App";
 
 String imgAsset = "assets/images/thrown_13_3.jpg";
 
-Color backgroundColor = Color.fromRGBO(194, 178, 128, 1);
-Color appBarTextColor = Colors.white;
-Color appBarBackgroundColor = Color.fromRGBO(155, 134, 99, 1);
-Color appBarIconColor = Colors.white;
+Color backgroundColor = Color.fromRGBO(247, 204, 172, 1);
+Color appBarTextColor = Color.fromRGBO(71, 69, 69, 1.0);
+Color appBarBackgroundColor = Color.fromRGBO(247, 204, 172, 1);
+Color appBarIconColor = Color.fromRGBO(71, 69, 69, 1.0);
 Color modalColor = Colors.transparent;
-Color modalBackgroundColor = Color.fromRGBO(194, 178, 128, 1);
+Color modalBackgroundColor = Color.fromRGBO(247, 204, 172, 1);
 Color materialBackgroundColor = Colors.transparent;
-Color cardBackgroundColor = Colors.white;
-Color splashColor = Color.fromRGBO(237, 209, 166, 1);
+Color cardBackgroundColor = Color.fromRGBO(71, 69, 69, 1.0);
+Color splashColor = Color.fromRGBO(247, 204, 172, 1);
 Color splashColorTwo = Colors.black87;
-Color iconColor = Colors.white;
-Color textColor = Colors.white;
-Color textColorTwo = Colors.white70;
-Color dialogBackgroundColor = Color.fromRGBO(194, 178, 128, 1);
+Color iconColor = Color.fromRGBO(71, 69, 69, 1.0);
+Color textColor = Color.fromRGBO(71, 69, 69, 1.0);
+Color textColorTwo = Color.fromRGBO(71, 69, 69, 1.0);
+Color dialogBackgroundColor = Color.fromRGBO(247, 204, 172, 1);
 Color borderColor = Colors.black;
 Color paintColor = Colors.indigo;
 Color paintColorTwo = Colors.indigoAccent;
@@ -383,7 +383,7 @@ class _MyYear13ClassBPage extends State<MyYear13ClassBPage> {
                         heightFactor: 0.6,
                         child: Text(thrownName,
                             style: GoogleFonts.abel(
-                              color: textColor,
+                              color: appBarTextColor,
                               fontSize: 26.0,
                               fontWeight: FontWeight.bold
                             )

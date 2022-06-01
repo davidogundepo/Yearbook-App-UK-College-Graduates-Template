@@ -13,15 +13,15 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 String positionEnforcedTitle = "Position Enforced\n";
 
 
-Color backgroundColor = Color.fromRGBO(254, 250, 239, 1);
-Color appBarBackgroundColor = Color.fromRGBO(254, 255, 236, 1);
-Color appBarIconColor = Colors.blueGrey;
+Color backgroundColor = Color.fromRGBO(198, 93, 123, 1);
+Color appBarBackgroundColor = Color.fromRGBO(198, 93, 123, 1);
+Color appBarIconColor = Color.fromRGBO(121, 36, 60, 1.0);
 Color materialBackgroundColor = Colors.transparent;
-Color shapeDecorationColor = Color.fromRGBO(254, 255, 236, 1);
-Color cardBackgroundColor = Colors.blueGrey;
-Color splashColor = Color.fromRGBO(254, 255, 236, 1);
-Color textColor = Color.fromRGBO(254, 255, 236, 1);
-Color iconColor = Color.fromRGBO(254, 255, 236, 1);
+Color shapeDecorationColor = Color.fromRGBO(121, 36, 60, 1.0);
+Color cardBackgroundColor = Color.fromRGBO(121, 36, 60, 1.0);
+Color splashColor = Colors.white;
+Color textColor = Colors.white;
+Color iconColor = Colors.white;
 Color confettiColorOne = Colors.green;
 Color confettiColorTwo = Colors.blue;
 Color confettiColorThree = Colors.pink;
