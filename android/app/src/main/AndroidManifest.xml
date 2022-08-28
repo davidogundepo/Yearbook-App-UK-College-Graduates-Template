@@ -26,7 +26,7 @@
        android:extractNativeLibs="true"
        android:fullBackupContent="true"
        android:allowBackup="true"
-       android:label="UK College Sch"
+       android:label="UK College"
        android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
