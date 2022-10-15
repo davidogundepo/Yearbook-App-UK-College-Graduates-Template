@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.uk_college_graduates_template">
+    package="com.icdatinnovations.uk_college_graduates_template">
 
     <uses-permission android:name="android.permission.VIBRATE" />
 

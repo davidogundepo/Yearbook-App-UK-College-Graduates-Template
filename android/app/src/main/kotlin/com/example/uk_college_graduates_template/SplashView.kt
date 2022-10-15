@@ -1,4 +1,4 @@
-package com.example.uk_college_graduates_template
+package com.icdatinnovations.uk_college_graduates_template
 
 
 import android.content.Context
